@@ -1,0 +1,12 @@
+[programs.localnet]
+mymoneydapp = "7xRL5kqDrqUHmPALKhiGjVhcSjF6muvAFxs2HCVdrQYX"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/sayantank/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
